@@ -1,8 +1,7 @@
 <template lang="pug">
-  div
+  #app
     Header
-    #app.container.mx-auto
-      RouterView
+    RouterView
 </template>
 
 <script>
@@ -21,7 +20,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
-  padding: 40px 0
 }
 
 </style>
