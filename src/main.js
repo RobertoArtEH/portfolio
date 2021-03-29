@@ -5,6 +5,8 @@ import store from './store';
 
 import './assets/scss/main.scss';
 
+import '@fortawesome/fontawesome-free/js/all';
+
 Vue.config.productionTip = false;
 
 new Vue({
