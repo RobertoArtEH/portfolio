@@ -1,3 +1,17 @@
 .font-roboto {
   font-family: 'Roboto', sans-serif;
 }
+
+.hero {
+  position: relative;
+}
+
+.hero:before {
+  content: '';
+  background: linear-gradient(180deg, #0E141B 0%, #1E2730 112.06%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+}
