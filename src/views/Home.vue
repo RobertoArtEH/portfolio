@@ -11,13 +11,24 @@
             I have +1 years of professional experience working in frontend and backend,</br>
             but since I was very young I have tried to never stop learning.
           .mb-8.space-x-5
-            button.bg-primary-green.rounded.py-2.px-3.text-black.border-2.border-black
+            a(
+              href="https://www.linkedin.com/in/robertoesqueda/"
+              target="_blank"
+            ).bg-primary-green.rounded.py-2.px-3.text-black.border-2.border-black.inline-block
               i.fab.fa-linkedin.fa-2x
-            button.bg-primary-green.rounded.py-2.px-3.text-black.border-2.border-black
+            a(
+              href="https://github.com/RobertoArtEH"
+              target="_blank"
+            ).bg-primary-green.rounded.py-2.px-3.text-black.border-2.border-black.inline-block
               i.fab.fa-github.fa-2x
-            button.bg-primary-green.rounded.py-2.px-3.text-black.border-2.border-black
+            a(
+              href="https://twitter.com/RobertoArtEH"
+              target="_blank"
+            ).bg-primary-green.rounded.py-2.px-3.text-black.border-2.border-black.inline-block
               i.fab.fa-twitter.fa-2x
-            button.bg-primary-green.rounded.py-2.px-3.text-black.border-2.border-black
+            a(
+              href="mailto:robertoesqueda.dev@gmail.com"
+            ).bg-primary-green.rounded.py-2.px-3.text-black.border-2.border-black.inline-block
               i.fas.fa-envelope.fa-2x
         img(src="@/assets/img/hero-illustration.svg").block.mx-auto
       .relative
