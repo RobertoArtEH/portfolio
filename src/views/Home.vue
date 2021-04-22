@@ -37,11 +37,51 @@
             d="M0.00,49.98 C178.61,232.39 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
             style="stroke: none; fill: #0E141B;"
           )
+    section.container.mx-auto.mt-32.px-4.sm_px-12.grid.grid-cols-1.lg_grid-cols-main
+      section
+        h4.font-bold MAIN PROJECTS
+        template(v-for="project in projects")
+          ProjectCard(
+            :id="project.id"
+            :imgUrl="project.imgUrl"
+            :title="project.title"
+            :description="project.description"
+            :tags="project.tags"
+          )
+        button.btn-footer.button.w-full.mb-32.py-3.px-5.rounded-full.bg-primary-green.text-black.text-sm.font-bold.border-2.border-black.
+          VIEW ALL
+      section
+        article
+          h4.font-bold MAIN SKILLS
+          .flex.flex-wrap.my-12
+            template(v-for="skill in skills")
+              Tag(:title="skill")
+        article
+          h4.font-bold TECHNOLOGIES & TOOLS
+          .flex.flex-wrap.my-12
+            template(v-for="technology in technologies")
+              Tag(:title="technology")
 </template>
 
 <script>
+import ProjectCard from '@/components/ProjectCard.vue';
+import Tag from '@/components/Tag.vue';
+
+import Projects from '@/data/Projects';
+import { mainSkills, secondarySkills } from '@/data/Skills';
 
 export default {
   name: 'Home',
+  components: {
+    ProjectCard,
+    Tag,
+  },
+  data() {
+    return {
+      skills: mainSkills,
+      technologies: secondarySkills,
+      projects: Projects.reverse().slice(0, 2),
+    };
+  },
 };
 </script>
