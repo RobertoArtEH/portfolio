@@ -1,0 +1,19 @@
+.project-card {
+  background-color : $navy-blue;
+  
+  & img {
+    border-radius : 0.375rem 0.375rem 0 0;
+    height        : 13rem;
+    width         : 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-card {
+    width : 35rem;
+  }
+
+  .btn-footer {
+    width : 35rem;
+  }
+}
