@@ -5,9 +5,12 @@ module.exports = {
     extend: {
       colors: {
         'primary-green': '#42E2B8',
-        'dark-gray': '#0E141B',
+        'light-gray': '#2B4555',
         'dark-start': '#0E141B',
         'dark-end': '#1E2730',
+      },
+      gridTemplateColumns: {
+        main: '2fr 1fr',
       },
     },
   },
