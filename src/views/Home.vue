@@ -48,7 +48,7 @@
             :description="project.description"
             :tags="project.tags"
           )
-        button.btn-footer.button.w-full.mb-32.py-3.px-5.rounded-full.bg-primary-green.text-black.text-sm.font-bold.border-2.border-black.
+        button.btn-footer.button.w-full.mb-16.py-3.px-5.rounded-full.bg-primary-green.text-black.text-sm.font-bold.border-2.border-black.
           VIEW ALL
       section
         article
