@@ -1,6 +1,6 @@
 <template lang="pug">
   article.project-card.rounded-md.my-12
-    img.object-cover(:src="imgUrl")
+    img.object-cover(:src="imgUrl" :alt="title")
     .p-5
       h3.font-bold.text-lg {{ title }}
       p.pt-2 {{ description }}

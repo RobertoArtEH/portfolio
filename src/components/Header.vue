@@ -3,7 +3,7 @@
     .flex.justify-between.items-center.py-6.md_justify-start.md_space-x-10
       .flex.justify-start.w-0.flex-1
         RouterLink(to="/").flex.flex-no-shrink.mr-6
-          img(src="@/assets/img/eagle.svg").h-8.w-auto
+          img(src="@/assets/img/eagle.svg" alt="ROBERTO ESQUEDA" width="42" height="32").h-8.w-auto
 
       .-mr-2.-my-2.md_hidden
         button(type="button" aria-expanded="false" @click="showNavContent = !showNavContent").p-2.inline-flex.items-center.justify-center.text-gray-400.hover_text-gray-500
@@ -14,7 +14,7 @@
       nav.hidden.md_flex.space-x-10
         RouterLink.font-bold.text-white.text-opacity-50(to="/") HOME
         RouterLink.font-bold.text-white.text-opacity-50(to="/projects") PROJECTS
-        a(href="https://medium.com/@robertoesqueda" target="_blank").font-bold.text-white.text-opacity-50 BLOG
+        a(href="https://medium.com/@robertoesqueda" target="_blank" rel="noopener").font-bold.text-white.text-opacity-50 BLOG
 
       .hidden.md_flex.items-center.justify-end.md_flex-1.lg_w-0
         button.bg-primary-green.rounded-full.py-3.px-5.text-black.font-bold.text-sm.mt-4.lg_mt-0.border-2.border-black
@@ -47,7 +47,7 @@
                 RouterLink.-m-3.p-3.flex.items-center(to='/projects')
                   span.text-base.font-medium.text-white.text-opacity-50.
                     PROJECTS
-                a.-m-3.p-3.flex.items-center(href='https://medium.com/@robertoesqueda' target='_blank')
+                a.-m-3.p-3.flex.items-center(href='https://medium.com/@robertoesqueda' target='_blank' rel="noopener")
                   span.text-base.font-medium.text-white.text-opacity-50.
                     BLOG
           .py-6.px-5.space-y-6
