@@ -11,6 +11,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         main: '2fr 1fr',
+        projects: 'repeat(2, 1fr)',
       },
     },
   },
