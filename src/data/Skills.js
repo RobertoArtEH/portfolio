@@ -1,20 +1,22 @@
 const mainSkills = [
   'HTML & CSS',
-  'JavaScript',
+  'JavaScript (ES6)',
   'React',
   'Vue',
   'Node.js',
+  'Adonis.js',
   'PHP',
   'Laravel',
+  'Web Services',
   'API REST',
-  'Git',
-  'Firebase',
   'MySQL',
-  'MongoDB',
 ];
 
 const secondarySkills = [
   'Figma',
+  'Git',
+  'Firebase',
+  'DigitalOcean',
   'NPM',
   'Eslint',
   'Github',
