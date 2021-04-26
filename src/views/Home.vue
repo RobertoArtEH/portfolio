@@ -50,12 +50,15 @@
         template(v-for="project in projects")
           ProjectCard(
             :id="project.id"
+            :url="project.url"
             :imgUrl="project.imgUrl"
             :title="project.title"
             :description="project.description"
             :tags="project.tags"
-          )
-        button.btn-footer.button.w-full.mb-16.py-3.px-5.rounded-full.bg-primary-green.text-black.text-sm.font-bold.border-2.border-black.
+          ).my-12
+        RouterLink(
+          to="/projects"
+        ).inline-block.text-center.btn-footer.button.w-full.mb-16.py-3.px-5.rounded-full.bg-primary-green.text-black.text-sm.font-bold.border-2.border-black.
           VIEW ALL
       section
         article
@@ -87,7 +90,7 @@ export default {
     return {
       skills: mainSkills,
       technologies: secondarySkills,
-      projects: Projects.reverse().slice(0, 2),
+      projects: Projects.slice(0, 3),
     };
   },
 };
