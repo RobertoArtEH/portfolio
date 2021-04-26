@@ -17,8 +17,11 @@
         a(href="https://medium.com/@robertoesqueda" target="_blank" rel="noopener").font-bold.text-white.text-opacity-50 BLOG
 
       .hidden.md_flex.items-center.justify-end.md_flex-1.lg_w-0
-        button.bg-primary-green.rounded-full.py-3.px-5.text-black.font-bold.text-sm.mt-4.lg_mt-0.border-2.border-black
-          | DOWNLOAD RESUME
+        a(
+          href="mailto:robertoesqueda.dev@gmail.com"
+          aria-label="Email"
+        ).inline-block.text-center.bg-primary-green.rounded-full.py-3.px-5.text-black.font-bold.text-sm.mt-4.lg_mt-0.border-2.border-black.
+          CONTACT ME
 
     transition(
       enter-active-class="transition duration-300 ease-out transform"
@@ -52,8 +55,11 @@
                     BLOG
           .py-6.px-5.space-y-6
             div
-              button.w-full.py-3.px-5.rounded-full.bg-primary-green.text-black.text-sm.font-bold.border-2.border-black.
-                DOWNLOAD RESUME
+              a(
+                href="mailto:robertoesqueda.dev@gmail.com"
+                aria-label="Email"
+              ).inline-block.text-center.w-full.py-3.px-5.rounded-full.bg-primary-green.text-black.text-sm.font-bold.border-2.border-black.
+                CONTACT
 </template>
 
 <script>
