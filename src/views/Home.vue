@@ -7,9 +7,9 @@
             span.block I'm Roberto Esqueda,
             span Web Developer
           p.my-8.
-            I specialize in JavaScript technologies like Vue, Angular and React.</br>
-            I have +1 years of professional experience working in frontend and backend,</br>
-            but since I was very young I have tried to never stop learning.
+            Developer with professional experience working with frontend and backend technologies.</br>
+            I’ve worked and collaborated with multiple teams on incredible projects.</br>
+            Always achieving the successful development of the product and paying attention to the details.
           .mb-8.space-x-5
             a(
               href="https://www.linkedin.com/in/robertoesqueda/"
