@@ -13,11 +13,11 @@
           target="_blank"
           rel="noopener"
           :aria-label="title"
-        ).inline-block.text-center.text-primary-green.text-sm.font-bold.w-full.py-2.rounded-md.border-2.border-primary-green.
+        ).inline-block.text-center.text-primary-green.text-sm.font-bold.w-full.py-2.rounded-md.border-2.border-primary-green.hover_text-black.hover_bg-primary-green.
           VIEW PROJECT
       template(v-else)
         a.inline-block.text-center.text-red-500.text-sm.font-bold.w-full.py-2.rounded-md.border-2.border-red-500.
-          NO AVAILABLE NOW
+          PRIVATE / OFFLINE
 </template>
 
 <script>

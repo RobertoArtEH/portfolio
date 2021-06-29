@@ -2,7 +2,7 @@ const Projects = [
   {
     id: 0,
     url: 'https://x-change.netlify.app/',
-    imgUrl: 'img/projects/xchange.png',
+    imgUrl: 'img/projects/preview/xchange.png',
     title: 'XChange',
     description: 'Cryptocurrency platform: view all cryptocurrencies and their values in real time.',
     tags: [
@@ -14,7 +14,7 @@ const Projects = [
   {
     id: 0,
     url: 'https://www.npmjs.com/package/mediaplayer-plugins',
-    imgUrl: 'img/projects/mediaplayer.png',
+    imgUrl: 'img/projects/preview/mediaplayer.png',
     title: 'Mediaplayer Plugins ',
     description: 'NPM package, plugins that give extra functionalities to the video player.',
     tags: [
@@ -26,7 +26,7 @@ const Projects = [
   {
     id: 0,
     url: null,
-    imgUrl: 'img/projects/ecologic-web.png',
+    imgUrl: 'img/projects/preview/ecologic-web.png',
     title: 'Eco-logic Web',
     description: 'Web Application, drip irrigation system: information of your plants, statistics, user control, and water your plants from anywhere.',
     tags: [
@@ -40,7 +40,7 @@ const Projects = [
   {
     id: 0,
     url: null,
-    imgUrl: 'img/projects/ecologic.png',
+    imgUrl: 'img/projects/preview/ecologic.png',
     title: 'Eco-logic Android',
     description: 'Android Application, drip irrigation system: information of your plants, statistics, user control, and water your plants from anywhere.',
     tags: [
@@ -53,7 +53,7 @@ const Projects = [
   {
     id: 0,
     url: null,
-    imgUrl: 'img/projects/galvanic.png',
+    imgUrl: 'img/projects/preview/galvanic.png',
     title: 'Galvanic Therapy',
     description: 'Web Application, personal care products e-commerce.',
     tags: [
